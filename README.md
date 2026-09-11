@@ -11,6 +11,8 @@ ERROR:  function: 'xpath' not found
 
 PostgreSQL 18.6 runs the same three statements: it returns `<a>x</a>`, creates the table, and returns `{x}`.
 
+Reported upstream: https://github.com/dolthub/doltgresql/issues/3337
+
 ## Reproduce it
 
 You need Docker and a POSIX shell: Linux, macOS, or Windows with WSL. The first run downloads the two images.
